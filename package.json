@@ -1,0 +1,29 @@
+{
+  "name": "classes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --exec babel-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "3.6.4",
+    "antz": "^0.0.1",
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "moment": "^2.22.1",
+    "mysql": "^2.15.0",
+    "node-notifier": "^5.2.1",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^1.17.4"
+  }
+}

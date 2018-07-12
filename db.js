@@ -1,6 +1,3 @@
-import mysql from 'mysql';
-require('dotenv').config();
-
 const  knex = require('knex')({
     client: 'mysql',
     connection: {

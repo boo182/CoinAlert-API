@@ -6,7 +6,7 @@ require('dotenv').config();
 
 
 const app = express();
-const PORT = 1337;
+const PORT = process.env.PORT || 1337;
 app.use(cors());
 
 import coins from "./routes/coins";
